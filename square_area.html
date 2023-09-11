@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="/css/style_squarearea.css">
+    <title>SQUARE AREA</title>
+</head>
+
+<body>
+    <form onsubmit="return false" action="">
+        <h1>SQUARE AREA</h1>
+        <img src="/images/square.png" alt="Square Area">
+        <h4>พื้นที่สี่เหลี่ยม = กว้าง x ยาว</h4>
+        <hr>
+        <div id="div-width">
+            ป้อนกว้าง (เมตร): <br>
+            <input type="text" id="get-width" required>
+        </div>
+        <div>
+            ป้อนยาว (เมตร): <br>
+            <input type="text" id="get-lenght" required>
+        </div>
+        <button id="btn-cal">คำนวณพื้นที่</button><button id="btn-can">ยกเลิก</button>
+        <hr>
+        <div>
+            พื้นที่สี่เหลี่ยมเป็น <span id="show-area">0.00</span> ตารางเมตร
+        </div>
+    </form>
+    <script src="/js/script_square_area.js"></script>
+</body>
+
+</html>

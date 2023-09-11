@@ -1,0 +1,25 @@
+
+input{
+    margin: 20px 0;
+}
+
+hr{
+    margin-right: 80%;
+}
+
+#get-width{
+    margin-top: 20px;
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+#show-area{
+    margin-top: 20px;
+}
+
+span{
+    font-size: 30px;
+    font-weight: bold;
+}

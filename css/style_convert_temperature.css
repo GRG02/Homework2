@@ -1,0 +1,29 @@
+img{
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-right: 80%;
+}
+
+#input-box{
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#show-cal{
+    margin-top: 20px;
+}
+
+#show-temp{
+    font-size: 30px;
+    font-weight: bold;
+}
